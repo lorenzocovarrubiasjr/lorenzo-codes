@@ -1,0 +1,11 @@
+.work-history {
+  padding: 24px;
+  padding-top: 60px;
+  color: white;
+  background-color: #1e3264;
+  background-image: linear-gradient(#2c5e92 0%, #552f6d 80%);
+}
+
+.work-history > h1 {
+  margin-bottom: 60px;
+}

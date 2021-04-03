@@ -1,0 +1,28 @@
+.chip {
+  display: flex;
+  align-items: center;
+  width: 65px;
+  border-radius: 75px;
+  margin: 2px;
+  color: white;
+  height: 28px;
+  transition: 1s;
+  transition: 0.15s linear;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+.disabled {
+  display: flex;
+  align-items: center;
+  width: 65px;
+  border-radius: 75px;
+  margin: 2px;
+  color: white;
+  height: 28px;
+  transition: 1s;
+  transition: 0.15s linear;
+  margin-left: 5px;
+  padding-left: 5px;
+  background-color: grey !important;
+}
