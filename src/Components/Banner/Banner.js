@@ -11,6 +11,12 @@ function Banner({ backgroundImg }) {
         <div className="banner-content">
           <h1>Hello World</h1>
           <h3>Lorenzo Covarrubias</h3>
+          <a
+            download="lorenzo-covarrubias-resume"
+            href="/lorenzo-covarrubias-resume-2021.pdf"
+          >
+            Download Resume
+          </a>
         </div>
       </div>
     </>

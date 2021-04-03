@@ -3,36 +3,37 @@ export const projects = [
     title: "Spotify Clone",
     link: "https://spotify-clone-545be.web.app/",
     imageUrl: "https://i.imgur.com/5Kp2bTc.png",
-    description: "",
+    description: "ReactJS, Spotify Web API, Firebase Hosting, Material UI",
     videoUrl: "https://media.giphy.com/media/zWCTrNzsOmRAkcnVlH/giphy.gif",
   },
   {
     title: "Netflix Clone",
     link: "https://netflix-clone-9694d.web.app/",
     imageUrl: "https://i.imgur.com/CMEAfJ8.png",
-    description: "",
+    description: "ReactJS, Axios, Firebase Hosting, Material UI",
     videoUrl:
       "https://media.giphy.com/media/pZuew1Fp1t1HSovHpI/giphy-downsized-large.gif",
   },
   {
     title: "Amazon Clone",
-    link: "",
+    link: "https://clone-2475f.web.app/",
     imageUrl: "https://i.imgur.com/7VDloph.png",
-    description: "ReactJS, Firebase Hosting",
+    description: "ReactJS, Stripe API, Firebase Hosting",
     videoUrl: "https://media.giphy.com/media/QByYNOiyafyjjRBSqM/giphy.gif",
   },
   {
-    title: "Oil & Gas Dashboard Clone",
-    link: "https://i.imgur.com/ZDbEzSA.png",
-    imageUrl: "",
-    description: "",
+    title: "O&G Dashboard",
+    link: "https://oil-and-gas-dashboard.web.app/",
+    imageUrl: "https://i.imgur.com/ZDbEzSA.png",
+    description: "ReactJs, GraphQL, Firebase Hosting",
+    videoUrl: "https://media.giphy.com/media/psI8ayUaJWe9zycRgG/giphy.gif",
   },
 ];
 
 export const workHistory = [
   {
     company: "National Oilwell Varco",
-    position: "App Development Engineer",
+    position: "Application Development Engineer",
     dates: "02/2020 - Present",
     description:
       "Skillset: Angular, Typescript, RxJS, NgRx, Cypress E2E Testing.<bold> Code owner for 2 applications in the MaxMT Industrial Platform. Work on an agile team to update, fix bugs, and create new features. Collaborate with back-end team members to create endpoints and responses, Collaborate with UI/UX team to ensure proper stylings and consistency. Report to Application Development Managers. Details @ www.nov.com/products/max-mt-industrial-maintenance-platform",

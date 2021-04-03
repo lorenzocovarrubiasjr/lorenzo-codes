@@ -1,0 +1,48 @@
+.footer {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer > div {
+  margin-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.center-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column,
+.right-column {
+  margin: 50px 0 22px;
+}
+
+dl {
+  padding: 0 25px;
+  margin: 0;
+}
+
+dt {
+  margin: 50px 0 22px;
+  color: #919496;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+dd {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+dd:hover {
+  color: #1ed760;
+}

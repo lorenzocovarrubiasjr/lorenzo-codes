@@ -1,4 +1,6 @@
 .nav-bar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,7 +9,7 @@
     rgba(63, 68, 251, 1) 0%,
     rgba(252, 70, 70, 1) 100%
   );
-
+  z-index: 777;
   height: 35px;
   transition: 0.5s;
 }

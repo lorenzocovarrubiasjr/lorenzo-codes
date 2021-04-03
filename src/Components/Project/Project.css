@@ -1,3 +1,7 @@
+a {
+  color: white;
+}
+
 .project {
   max-height: 250px;
   min-height: 208.88px;
@@ -27,7 +31,7 @@
   height: 75px;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(90deg, #8ab5e8, #c074b2);
+  background-image: linear-gradient(90deg, #1c72db, #94247f);
   opacity: 0.95;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;

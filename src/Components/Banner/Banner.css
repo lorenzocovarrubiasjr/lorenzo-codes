@@ -2,6 +2,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  padding-top: 25px;
 }
 
 .banner-content {
@@ -13,4 +14,13 @@
   color: white;
 }
 
-
+.banner-content > a {
+  font-size: 20px;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 19px 56px 21px;
+  color: #fff;
+  background-color: #1db954;
+  cursor: pointer;
+  margin: 20px;
+}

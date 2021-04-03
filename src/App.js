@@ -3,6 +3,7 @@ import Navbar from "../src/Components/Navbar/Navbar";
 import Banner from "../src/Components/Banner/Banner";
 import Projects from "../src/Components/Projects/Projects";
 import WorkHistory from "../src/Components/WorkHistory/WorkHistory";
+import Footer from "../src/Components/Footer/Footer";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Banner backgroundImg="https://i.imgur.com/WHUKZg8.png?1[/img]" />
       <Projects />
       <WorkHistory />
+      <Footer />
     </div>
   );
 }

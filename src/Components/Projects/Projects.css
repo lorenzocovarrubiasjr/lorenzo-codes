@@ -9,6 +9,17 @@
   text-align: left;
 }
 
+.projects-info > a {
+  font-size: 20px;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 19px 56px 21px;
+  color: #fff;
+  background-color: #1db954;
+  cursor: pointer;
+  margin: 20px;
+}
+
 .projects-list {
   margin-top: 24px;
 }
@@ -35,17 +46,6 @@
   .projects-info > h4 {
     padding: 12px;
     margin-bottom: 24px;
-  }
-
-  .projects-info > a {
-    font-size: 20px;
-    line-height: 1;
-    border-radius: 500px;
-    padding: 19px 56px 21px;
-    color: #fff;
-    background-color: #1db954;
-    cursor: pointer;
-    margin: 20px;
   }
 }
 
