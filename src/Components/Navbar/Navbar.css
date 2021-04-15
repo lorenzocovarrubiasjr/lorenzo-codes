@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   background: radial-gradient(
     circle,
     rgba(63, 68, 251, 1) 0%,
@@ -16,23 +17,34 @@
 
 .nav-bar:hover {
   height: 45px;
+  align-items: center;
+  text-align: center;
 }
 
 .nav-bar:hover > * {
   height: 35px;
 }
 
-.nav-bar > img {
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.nav-left > img {
   border-radius: 50%;
   height: 23px;
   transition: 0.6s;
   margin-left: 12px;
 }
 
-.nav-bar:hover > img {
-  height: 41px;
-}
-
 .style-chips {
   display: flex;
+}
+
+.nav-left > h4 {
+  color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
 }

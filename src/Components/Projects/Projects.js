@@ -9,7 +9,7 @@ function Projects() {
     <>
       <div className="projects">
         <div className="projects-info">
-          <small>Projects Info</small>
+          <small>Click to preview project</small>
           <h1>Jump Into My Code</h1>
           <h4>
             Apart from a full time role as husband, father & employee, my

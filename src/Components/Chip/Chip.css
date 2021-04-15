@@ -1,6 +1,7 @@
 .chip {
   display: flex;
   align-items: center;
+  text-align: center;
   width: 65px;
   border-radius: 75px;
   margin: 2px;

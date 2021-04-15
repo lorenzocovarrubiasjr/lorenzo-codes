@@ -1,4 +1,5 @@
 .projects {
+  display: flex;
   padding: 12px;
   min-height: 250px;
   background-image: linear-gradient(90deg, #c074b2, #8ab5e8);
@@ -7,6 +8,7 @@
 .project-info {
   color: white;
   text-align: left;
+  width: 50%;
 }
 
 .projects-info > a {
@@ -22,6 +24,7 @@
 
 .projects-list {
   margin-top: 24px;
+  width: 50%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -31,12 +34,13 @@
 
   .projects-list {
     display: flex;
-    width: 70%;
+    max-width: 550px;
     flex-wrap: wrap;
   }
 
   .projects-info {
     margin-top: 10%;
+    width: 40%;
   }
 
   .projects-info > h1 {
